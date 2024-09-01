@@ -54,18 +54,18 @@
             <h2>設定</h2>
             <div>
                 <h3>ゲームデータの名前</h3>
-                <input type="text" id="playGameDataName" class="textfield">
+                <input type="text" autocomplete="off" id="playGameDataName" class="textfield">
             </div>
             <div>
                 <h3>新しく作るレポートの間隔</h3>
-                <input type="range" min="1" max="23" step="1" value="1" id="dayInterval" class="textfield">
+                <input type="range" autocomplete="off" min="1" max="23" step="1" value="1" id="dayInterval" class="textfield">
                 <div id="dayIntervalResult" class="textCenterBlock">1</div>
             </div>
             <div>
                 <h3>日にちの単位</h3>
-                <input type="text" id="unit">
-                <input type="range" min="0" max="4" step="1" value="0" id="amountInUnit">
-                <input type="range" min="0" max="20" step="1" value="0" id="CycleInUnitChanges"
+                <input type="text" autocomplete="off" id="unit">
+                <input type="range" autocomplete="off" min="0" max="4" step="1" value="0" id="amountInUnit">
+                <input type="range" autocomplete="off" min="0" max="20" step="1" value="0" id="CycleInUnitChanges"
                     class="textfield hiddonBlock">
                 <div class="textCenterBlock hiddonBlock">周期 <span id="CycleInUnitChangesResult">1</span>
                 </div>
@@ -108,7 +108,7 @@
         <a class="cancel" href="#"></a>
         <div class="modals">
             <h2>新しいゲームデータの名前</h2>
-            <input type="text" id="inputNewSaveData" class="textfield">
+            <input type="text" autocomplete="off" id="inputNewSaveData" class="textfield">
             <div class="sideBySide">
                 <a href="#" id="createbtn" class="button">作成</a>
                 <a href="#" class="button">キャンセル</a>
@@ -129,7 +129,7 @@
         <a class="cancel" href="#"></a>
         <div class="modals">
             <h2>インポート</h2>
-            <textarea id="importInput"></textarea>
+            <textarea autocomplete="off" id="importInput"></textarea>
             <div class=" sideBySide">
                 <a href="#" id="importbtn" class="button">作成</a>
                 <a href="#" class="button">キャンセル</a>
